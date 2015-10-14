@@ -1,0 +1,4 @@
+.DS_Store
+.idea/*
+server/api/node_modules/*
+server/user/node_modules/*

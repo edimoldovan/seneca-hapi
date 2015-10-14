@@ -1,0 +1,22 @@
+{
+  "apps" : [
+    {
+      "name": "api",
+      "script": "./api/api-app.js",
+      "autorestart": true,
+      "cwd": "./api",
+      "env": {
+        "NODE_ENV": "production"
+      }
+    },
+    {
+      "name": "user",
+      "script": "./user/user-app.js",
+      "autorestart": true,
+      "cwd": "./user",
+      "env": {
+        "NODE_ENV": "production"
+      }
+    }
+  ]
+}

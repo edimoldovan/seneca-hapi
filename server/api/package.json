@@ -1,0 +1,32 @@
+{
+  "name": "retail",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edimoldovan/retail.git"
+  },
+  "keywords": [
+    "retail"
+  ],
+  "author": "Eduard Moldovan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edimoldovan/retail/issues"
+  },
+  "homepage": "https://github.com/edimoldovan/retail#readme",
+  "dependencies": {
+    "blipp": "^2.3.0",
+    "config": "^1.16.0",
+    "handlebars": "^4.0.3",
+    "hapi": "^10.1.0",
+    "hapi-sass": "^2.0.0",
+    "joi": "^6.7.1",
+    "seneca": "^0.6.5",
+    "vision": "^3.0.0"
+  }
+}

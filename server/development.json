@@ -1,0 +1,22 @@
+{
+  "apps" : [
+    {
+      "name": "api",
+      "script": "./api/api-app.js",
+      "watch": true,
+      "cwd": "./api",
+      "env": {
+        "NODE_ENV": "development"
+      }
+    },
+    {
+      "name": "user",
+      "script": "./user/user-app.js",
+      "watch": true,
+      "cwd": "./user",
+      "env": {
+        "NODE_ENV": "development"
+      }
+    }
+  ]
+}

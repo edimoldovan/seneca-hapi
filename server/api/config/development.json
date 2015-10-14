@@ -1,0 +1,15 @@
+{
+  "app": {
+    "host": "0.0.0.0",
+    "port": 8000,
+    "protocol": "http"
+  },
+  "apps": {
+    "user": {
+      "port": 10001
+    }
+  },
+  "mongodb": {
+    "url": "mongodb://localhost:27017/she"
+  }
+}
