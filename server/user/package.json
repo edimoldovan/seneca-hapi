@@ -9,6 +9,7 @@
   "author": "Eduard Moldovan",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^0.8.5",
     "bcrypt-nodejs": "0.0.3",
     "config": "^1.16.0",
     "seneca": "^0.6.5",

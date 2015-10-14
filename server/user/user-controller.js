@@ -1,5 +1,6 @@
 var seneca = require("seneca")();
 var config = require("config");
+var bcrypt = require("bcrypt");
 
 seneca
   .use("mongo-store", config.get("mongodb"));
@@ -42,7 +43,7 @@ module.exports = function user(options) {
   
     var user = seneca.make$("user");
     user.email = msg.data.email;
-    user.password = bcrypt.hashSync(msg.data.email);
+    user.password = msg.data.password;
     user.save$(function(error, newUser){
       if (error) {
         throw error;

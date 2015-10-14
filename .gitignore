@@ -2,3 +2,5 @@
 .idea/*
 server/api/node_modules/*
 server/user/node_modules/*
+
+server/node_modules/bcrypt/build/config.gypi
